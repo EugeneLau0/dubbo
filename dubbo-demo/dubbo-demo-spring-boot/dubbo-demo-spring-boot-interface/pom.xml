@@ -26,6 +26,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dubbo-demo-spring-boot-interface</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-common</artifactId>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
